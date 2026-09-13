@@ -66,7 +66,7 @@ export const WishesFromYas: React.FC = () => {
           {/* Letter Body */}
           <div className="space-y-6 text-center">
             <h3 className="font-script text-3xl sm:text-5xl gold-text-gradient font-normal">
-              Dear Lavanya & Praveenn,
+              Dear Lavanya ❤️ Praveenn,
             </h3>
 
             <p className="font-heading text-lg sm:text-2xl text-[#FFFDF7]/95 leading-relaxed italic font-light max-w-2xl mx-auto">

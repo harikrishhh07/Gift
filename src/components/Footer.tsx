@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
         </p>
 
         <h2 className="font-script text-4xl sm:text-6xl gold-text-gradient my-2">
-          Lavanya & Praveenn
+          Lavanya <span className="text-[#D4AF37] font-sans inline-block mx-1 text-3xl sm:text-5xl animate-pulse">❤️</span> Praveenn
         </h2>
 
         <p className="text-xs sm:text-sm text-[#B8B09F] font-heading max-w-md my-3 font-light">

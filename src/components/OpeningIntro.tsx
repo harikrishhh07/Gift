@@ -110,7 +110,7 @@ export const OpeningIntro: React.FC<OpeningIntroProps> = ({ onComplete }) => {
                   transition={{ delay: 0.5, duration: 0.8 }}
                   className="font-script text-4xl md:text-6xl gold-text-gradient mt-1"
                 >
-                  Lavanya & Praveenn
+                  Lavanya <span className="text-[#D4AF37] font-sans inline-block mx-1.5 text-3xl md:text-5xl animate-pulse">❤️</span> Praveenn
                 </motion.h1>
               </div>
 

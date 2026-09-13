@@ -46,7 +46,7 @@ export const CelebrationMessage: React.FC = () => {
 
           <div className="mt-8 flex items-center justify-center gap-3">
             <Heart className="w-4 h-4 text-[#D4AF37] fill-[#D4AF37]/30" />
-            <span className="font-script text-2xl text-[#F5E6AB]">Lavanya & Praveenn</span>
+            <span className="font-script text-2xl text-[#F5E6AB]">Lavanya ❤️ Praveenn</span>
             <Heart className="w-4 h-4 text-[#D4AF37] fill-[#D4AF37]/30" />
           </div>
         </motion.div>
