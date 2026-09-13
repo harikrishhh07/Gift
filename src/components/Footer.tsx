@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Heart, Sparkles } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 export const Footer: React.FC = () => {
   return (
@@ -33,13 +33,8 @@ export const Footer: React.FC = () => {
         <div className="w-32 h-[1px] bg-gradient-to-r from-transparent via-[#D4AF37]/40 to-transparent my-8" />
 
         {/* Required Credit */}
-        <div className="flex flex-col items-center gap-1">
-          <p className="text-xs text-[#B8B09F]/80 font-heading flex items-center gap-1.5">
-            <span>Crafted with</span>
-            <Heart className="w-3 h-3 text-[#D4AF37] fill-[#D4AF37]" />
-          </p>
-
-          <p className="text-xs uppercase tracking-[0.25em] text-[#D4AF37]/90 font-heading font-medium mt-1">
+        <div className="flex flex-col items-center">
+          <p className="text-xs uppercase tracking-[0.25em] text-[#D4AF37]/90 font-heading font-medium">
             Designed by Yashwanth Friends
           </p>
         </div>

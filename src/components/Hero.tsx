@@ -36,7 +36,7 @@ export const Hero: React.FC = () => {
         >
           <Sparkles className="w-4 h-4 text-[#D4AF37]" />
           <span className="text-xs uppercase tracking-[0.25em] text-[#F5E6AB] font-heading font-medium">
-            Wedding Wishing & Celebration Website
+            Lavanya & Praveenn • Wedding Celebration
           </span>
           <Sparkles className="w-4 h-4 text-[#D4AF37]" />
         </motion.div>
