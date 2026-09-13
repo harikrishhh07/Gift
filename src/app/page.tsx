@@ -10,6 +10,7 @@ import { CelebrationMessage } from "@/components/CelebrationMessage";
 import { CoupleSection } from "@/components/CoupleSection";
 import { CelebrationTimer } from "@/components/CelebrationTimer";
 import { WishesFromYas } from "@/components/WishesFromYas";
+import { QRCodeSection } from "@/components/QRCodeSection";
 import { InteractiveLoveButton } from "@/components/InteractiveLoveButton";
 import { CelebrationButton } from "@/components/CelebrationButton";
 import { AudioPlayer } from "@/components/AudioPlayer";
@@ -37,8 +38,11 @@ export default function Home() {
         <CoupleSection />
         <CelebrationTimer />
 
-        {/* Dedicated Wishes from Yas Section */}
+        {/* Dedicated Wishes from Yashwanth & Friends Section */}
         <WishesFromYas />
+
+        {/* Customized QR Code Section */}
+        <QRCodeSection />
 
         {/* Interactive Love & Celebration CTAs */}
         <div className="py-12 flex flex-col items-center">
